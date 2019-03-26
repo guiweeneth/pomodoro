@@ -19,8 +19,8 @@ namespace pomodoro_menu.Views
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Pomodoro, Title="Pomodoro" },
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.History, Title="History" },
+                new HomeMenuItem {Id = MenuItemType.Configuration, Title="Configuration" }
             };
 
             ListViewMenu.ItemsSource = menuItems;

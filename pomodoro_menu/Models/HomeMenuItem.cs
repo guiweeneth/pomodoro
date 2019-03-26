@@ -7,8 +7,8 @@ namespace pomodoro_menu.Models
     public enum MenuItemType
     {
         Pomodoro,
-        Browse,
-        About
+        History,
+        Configuration
     }
     public class HomeMenuItem
     {

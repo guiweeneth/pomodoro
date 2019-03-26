@@ -14,7 +14,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:ItemsPage />
+                <views:PomodoroPage />
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
